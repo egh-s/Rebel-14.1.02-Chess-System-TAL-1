@@ -1,6 +1,8 @@
 # Rebel-14.1.02
 
-Cleans up the code base of Rebel-14.1 and add enhanced NNUE capability. Should be runnable straight out of VS2019.
+Cleans up the code base of Rebel-14.1 and add enhanced NNUE capability. Should run straight out of VS2019. You may need to unzip the NNUE's in the folder embedded-nnues.
+
+http://rebel13.nl/windows/rebel-14.html
 
 Re-organised the directories and project structure.
 
@@ -25,3 +27,16 @@ Rank | Name | Elo | +/- | Games | Score | Draw
    4  |Clover_2.3.1          |          19   |    42   |   200  |  52.8%  |  24.5%
    5 | Marvin_5.1         |           -164   |    46  |    200  |  28.0%  |  21.0%
 
+Source is set to compile AVX2 version. This can be changed to SSE in file SIMD.CPP ...
+
+#define USE_SSE true
+
+#define USE_AVX2 false
+
+Source is set to compile 5-Minute Blitz version. This can be changed in file NNUE.CPP ...
+
+//#include "embedded-nnues/resume-iter=1-pos=1.2B-d6+d7-lambda=0.5-lr=0.000004-epoch=147-arch=3-loss=0.16804.txt"
+
+//#include "embedded-nnues/ChrisW-NNUE-Tal-10-MinuteBlitz.txt"
+
+#include "embedded-nnues/ChrisW-NNUE-Tal-5-MinuteBlitz.txt"
