@@ -4,6 +4,8 @@ Cleans up the code base of Rebel-14.1 and add enhanced NNUE capability. Should r
 
 http://rebel13.nl/windows/rebel-14.html
 
+Added two new NNUE.nets designed to play in style of Tal, which they'll do provided the opposition is of similar Elo (3100-3150), it helps to use a gambit opening book too.
+
 Re-organised the directories and project structure.
 
 Gambit Opening Book, test games against a pool of around 3100 engines
