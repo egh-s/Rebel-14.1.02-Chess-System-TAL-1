@@ -4,7 +4,7 @@ Cleans up the code base of Rebel-14.1 and add enhanced NNUE capability. Should b
 
 Re-organised the directories and project structure.
 
-Gambit Opening Book, test games against a pool of aound 3100 engines
+Gambit Opening Book, test games against a pool of around 3100 engines
 
 Rank | Name | Elo | +/- | Games | Score | Draw
 | :---: | :---: | :---: | :---: | :---: | :---: | :---:
