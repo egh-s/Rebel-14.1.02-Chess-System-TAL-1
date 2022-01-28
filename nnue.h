@@ -99,7 +99,7 @@ struct layer {
 #else
 // HalfKA
 #if (1)
-#define NET_VERSION 0x00000003
+#define NET_VERSION 0x00000005
 #define HALFKX_LAYER_SIZE 256
 #define NUM_PT 11					// org = 11
 #define MAX_ACTIVE_FEATURES 32

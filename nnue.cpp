@@ -565,7 +565,9 @@ bool NnueLoadNet(char *path)
 
 // best #include "c:/rebel/growing_fruit-master-3/embedded-nnues/Benjamin 1.1-iter=1-pos=1.2B-d6+d7-lambda=0.5-lr=0.000001-epoch=79-arch=3-loss=0.16672.txt"
 
-#include "embedded-nnues/resume-iter=1-pos=1.2B-d6+d7-lambda=0.5-lr=0.000004-epoch=147-arch=3-loss=0.16804.txt"
+//#include "embedded-nnues/resume-iter=1-pos=1.2B-d6+d7-lambda=0.5-lr=0.000004-epoch=147-arch=3-loss=0.16804.txt"
+//#include "embedded-nnues/ChrisW-NNUE-Tal-10-MinuteBlitz.txt"
+#include "embedded-nnues/ChrisW-NNUE-Tal-5-MinuteBlitz.txt"
 
 bool NnueLoadEmbeddedNet()
 {
