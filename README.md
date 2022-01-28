@@ -8,8 +8,9 @@ Added two new NNUE.nets designed to play in style of Tal, which they'll do provi
 
 Re-organised the directories and project structure.
 
-Gambit Opening Book, test games against a pool of around 3100 engines
+Gambit Opening Book, test games against a pool of around 3100 Elo rated engines, fast time control 40/10
 
+10-Minute-Blitzer results:
 Rank | Name | Elo | +/- | Games | Score | Draw
 | :---: | :---: | :---: | :---: | :---: | :---: | :---:
    0  | Rebel-14.1.02-ChrisW-NNUE-Tal-0-10MinuteBlitzer |       65 |       19 |     1000 |    59.3% |    23.6%
@@ -20,6 +21,7 @@ Rank | Name | Elo | +/- | Games | Score | Draw
    5 |  Marvin_5.1 |                                            -238 |       53 |      200 |    20.3%  |   15.5%
 
 
+5-Minute-Blitzer results:
 Rank | Name | Elo | +/- | Games | Score | Draw
 | :---: | :---: | :---: | :---: | :---: | :---: | :---:
    0  |Rebel-14.1.02-ChrisW-NNUE-Tal-0-5MinuteBlitzer      | 10     |  19   |  1000 |   51.4%  |  24.3%
