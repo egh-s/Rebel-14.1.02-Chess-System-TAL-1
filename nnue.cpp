@@ -568,6 +568,8 @@ bool NnueLoadNet(char *path)
 //#include "embedded-nnues/resume-iter=1-pos=1.2B-d6+d7-lambda=0.5-lr=0.000004-epoch=147-arch=3-loss=0.16804.txt"
 //#include "embedded-nnues/ChrisW-NNUE-Tal-10-MinuteBlitz.txt"
 #include "embedded-nnues/ChrisW-NNUE-Tal-5-MinuteBlitz.txt"
+//#include "embedded-nnues/ChrisW-NNUE-Tal-2-Minute-Blitzer.txt"
+//#include "embedded-nnues/ChrisW-NNUE-Tal-1-Minute-Blitzer.txt"
 
 bool NnueLoadEmbeddedNet()
 {
