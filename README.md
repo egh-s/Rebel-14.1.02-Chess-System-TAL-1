@@ -10,7 +10,7 @@ Re-organised the directories and project structure.
 
 Gambit Opening Book, test games against a pool of around 3100 Elo rated engines, fast time control 40/10
 
-10-Minute-Blitzer results:
+10-Minute-Blitzer results  (3100+65=3165 Elo)
 Rank | Name | Elo | +/- | Games | Score | Draw
 | :---: | :---: | :---: | :---: | :---: | :---: | :---:
    0  | Rebel-14.1.02-ChrisW-NNUE-Tal-0-10MinuteBlitzer |       65 |       19 |     1000 |    59.3% |    23.6%
@@ -21,7 +21,8 @@ Rank | Name | Elo | +/- | Games | Score | Draw
    5 |  Marvin_5.1 |                                            -238 |       53 |      200 |    20.3%  |   15.5%
 
 
-5-Minute-Blitzer results:
+
+5-Minute-Blitzer results (3100+10=3110 Elo)
 Rank | Name | Elo | +/- | Games | Score | Draw
 | :---: | :---: | :---: | :---: | :---: | :---: | :---:
    0  |Rebel-14.1.02-ChrisW-NNUE-Tal-0-5MinuteBlitzer      | 10     |  19   |  1000 |   51.4%  |  24.3%
@@ -30,6 +31,31 @@ Rank | Name | Elo | +/- | Games | Score | Draw
    3  |Winter_0.9             |         24   |    41    |  200  |  53.5%   | 29.0%
    4  |Clover_2.3.1          |          19   |    42   |   200  |  52.8%  |  24.5%
    5 | Marvin_5.1         |           -164   |    46  |    200  |  28.0%  |  21.0%
+   
+   
+   
+2-Minute-Blitzer results (3100+3=3103 Elo)
+Rank | Name | Elo | +/- | Games | Score | Draw
+| :---: | :---: | :---: | :---: | :---: | :---: | :---:
+   0 |Rebel-14.1.02-ChrisW-NNUE-Tal-0-2MinuteBlitzer   |     3   |    19  |   1000  |  50.5% |   22.8%
+   1 |Combusken_1.4.0        |         53|       43|      200|    57.5% |   23.0%
+   2| Winter_0.9               |       31  |     42  |    200 |   54.5%  |  26.0%
+   3 |Counter_4.0                |     28    |   42    |  200  |  54.0%   | 25.0%
+   4| Clover_2.3.1                 |   10      | 43  |    200   | 51.5% |   20.0%
+   5| Marvin_5.1                 |   -147      | 46   |   200  |  30.0%   | 20.0%
+
+
+
+1-Minute-Blitzer results (3100-5=3095 Elo)
+Rank | Name | Elo | +/- | Games | Score | Draw
+| :---: | :---: | :---: | :---: | :---: | :---: | :---:
+   0| Rebel-14.1.02-ChrisW-NNUE-Tal-0-1MinuteBlitzer   |   -5   |   19  |  1000  | 49.3%  | 23.7%
+   1| Winter_0.9             |        53  |    43  |   200  | 57.5% |  22.0%
+   2 |Combusken_1.4.0        |        51   |   43  |   200  | 57.3%  | 21.5%
+   3 |Clover_2.3.1          |         42   |   43  |   200 |  56.0%  | 22.0%
+   4 |Counter_4.0         |           31    |  41  |   200 |  54.5% |  29.0%
+   5 |Marvin_5.1        |           -160   |   45  |   200 |  28.5%  | 24.0%
+
 
 Source is set to compile AVX2 version. This can be changed to SSE in file SIMD.CPP ...
 
