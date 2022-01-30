@@ -1,8 +1,9 @@
 # Rebel-14.1.02
 
+
 Cleans up the code base of Rebel-14.1 and add enhanced NNUE capability. Should run straight out of VS2019. You may need to unzip the NNUE's in the folder embedded-nnues.
 
-http://rebel13.nl/windows/rebel-14.html
+For more informtion on Rebel-14 goto http://rebel13.nl/windows/rebel-14.html
 
 Added two new NNUE.nets designed to play in style of Tal, which they'll do provided the opposition is of similar Elo (3100-3150), it helps to use a gambit opening book too.
 
