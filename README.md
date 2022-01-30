@@ -1,5 +1,7 @@
 # Rebel-14.1.02
 
+Licensed under the GNU General Public License v3.0
+
 
 Cleans up the code base of Rebel-14.1 and add enhanced NNUE capability. Should run straight out of VS2019. You may need to unzip the NNUE's in the folder embedded-nnues.
 
